@@ -1,0 +1,22 @@
+{
+    "name": "gitbook-plugin-component-md-generate",
+    "version": "1.0.0",
+    "description": "test gitbook plugin",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "engines": {
+        "gitbook": "*"
+    },
+    "gitbook": {
+        "properties": {
+            "packageJsonPath": {
+                "type": "string",
+                "default": null,
+                "description": "a package.json includes version"
+            }
+        }
+    }
+}

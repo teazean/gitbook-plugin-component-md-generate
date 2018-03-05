@@ -1,5 +1,6 @@
 const replacers = [
-    require('./replacer/version')
+    require('./replacer/version'),
+    require('./replacer/date')
 ]
 
 module.exports = {

@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-component-md-generate",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "test gitbook plugin",
     "main": "index.js",
     "scripts": {
@@ -18,5 +18,8 @@
                 "description": "a package.json includes version"
             }
         }
+    },
+    "dependencies": {
+        "moment": "^2.21.0"
     }
 }

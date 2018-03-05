@@ -11,4 +11,4 @@ module.exports = function (page, config) {
         // nothing
         console.error(e);
     }
-}
+};
